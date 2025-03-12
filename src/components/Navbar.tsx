@@ -7,7 +7,27 @@ const Navbar = () => {
         <h1 className="text-xl font-bold text-gray-800 dark:text-white transition-colors duration-300">
           Theme Switcher
         </h1>
-        <DarkModeToggle />
+        <div className="flex items-center space-x-6">
+          <a
+            href="#"
+            className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white transition-colors duration-300"
+          >
+            Home
+          </a>
+          <a
+            href="#"
+            className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white transition-colors duration-300"
+          >
+            About
+          </a>
+          <a
+            href="#"
+            className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white transition-colors duration-300"
+          >
+            Contact
+          </a>
+          <DarkModeToggle />
+        </div>
       </div>
     </nav>
   );
